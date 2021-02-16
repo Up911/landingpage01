@@ -6,27 +6,31 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
     <!-- .block__element--mod -->
-<saction class="section section--navigation">
-    <div class="container">
-        <div class="logo logo--vertical">
-            <div class="logo__icon logo__icon--red"></div>
-            <div class="logo__title"></div>
-        </div>
-        <div class="nav">
+<section class="section section--navigation">
+    <div class="container display-flex flex-justify-between align-items-center">
+        <a href="#" class="logo">
+            <img class="logo__icon logo__icon--red" src="./assets/svg/logo.svg" width="35" height="36" alt="image description">
+            <div class="logo__title text-medium">
+                Lasles<span class="text-bold">VPN</span>
+            </div>
+        </a>
+        <div class="nav display-flex flex-justify-between">
             <div class="nav__item">About</div>
             <div class="nav__item">Features</div>
             <div class="nav__item">Pricing</div>
             <div class="nav__item">Testimonials</div>
             <div class="nav__item">Help</div>
         </div>
-        <div class="buttons">
-            <div class="btn">Sign In</div>
-            <div class="btn">Sign Up</div>
+        <div class="buttons display-flex flex-justify-between">
+            <div class="btn btn--link btn--small">Sign In</div>
+            <div class="btn btn--primary btn--outline btn--small btn--pill">Sign Up</div>
         </div>
     </div>
-</saction>
+</section>
 </body>
 </html>

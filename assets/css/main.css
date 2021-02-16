@@ -1,0 +1,101 @@
+/* tips */
+
+/* typography */
+@font-face {
+    font-family: "Rubik Regular";
+    font-weight: 500;
+    src: url("../fonts/Rubik-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Rubik Medium";
+    font-weight: 600;
+    src: url("../fonts/Rubik-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Rubik Bold";
+    font-weight: 700;
+    src: url("../fonts/Rubik-Regular.ttf") format("truetype");
+}
+body{
+    font-family: "Rubik Regular";
+    font-size: 16px;
+}
+.text-medium{
+    font-weight: 600;
+}
+.text-bold{
+    font-weight: 700;
+}
+/* common */
+.container {
+    width: 1138px;
+    margin: 0 auto;
+}
+/* buttons */
+.btn{
+    font-weight: 600;
+    color: #0b132a;
+    text-align: center;
+}
+.btn.btn--small{
+    line-height: 45px;
+}
+.btn.btn--large{
+    line-height: 60px;
+}
+.btn.btn--primary {
+    color: #f53855;
+}
+.btn.btn--link{
+
+}
+.btn.btn--fill{
+
+}
+.btn.btn--outline {
+    border: 1px solid #f53855;
+}
+.btn.btn--pill{
+    border-radius: 50px;
+}
+/* utils */
+.display-flex {
+    display: flex;
+}
+.flex-justify-between {
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+/* section navigation */
+.section {}
+.section--navigation {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: #0b132a;
+    text-decoration: none;
+}
+.logo--vertical {}
+.logo__icon {
+    margin-right: 10px;
+}
+.logo__icon--red {}
+.logo__title {
+    font-size: 20px;
+}
+.nav {}
+.nav .nav__item:not(:first-child) {
+    margin-left: 20px;
+}
+.buttons {}
+.buttons > .btn:not(:first-child) {
+    margin-left: 20px;
+}
+.buttons > .btn:last-child{
+    width: 150px;
+}
