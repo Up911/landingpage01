@@ -1,5 +1,6 @@
 /* tips */
 
+
 /* typography */
 @font-face {
     font-family: "Rubik Regular";
@@ -26,11 +27,31 @@ body{
 .text-bold{
     font-weight: 700;
 }
-/* common */
+
+
+/* container */
 .container {
-    width: 1138px;
-    margin: 0 auto;
+    max-width: 1138px;
+    margin: 0px auto;
+    padding: 0px 15px;
 }
+@media (max-width: 1138px) {
+    .container{
+        max-width: 970px;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px) {
+    .container{
+        max-width: none;
+    }
+}
+
+
 /* buttons */
 .btn{
     font-weight: 600;
@@ -58,6 +79,8 @@ body{
 .btn.btn--pill{
     border-radius: 50px;
 }
+
+
 /* utils */
 .display-flex {
     display: flex;
@@ -68,11 +91,16 @@ body{
 .align-items-center{
     align-items: center;
 }
+
+
 /* section navigation */
 .section {}
 .section--navigation {
     padding-top: 45px;
     padding-bottom: 45px;
+}
+.section.section--navigation >.container{
+    display: flex;
 }
 .logo {
     display: flex;
@@ -93,9 +121,48 @@ body{
     margin-left: 20px;
 }
 .buttons {}
-.buttons > .btn:not(:first-child) {
+.buttons > *:not(:first-child) {
     margin-left: 20px;
 }
-.buttons > .btn:last-child{
+.buttons > .btn.btn--pill{
     width: 150px;
+}
+.burger--btn{
+    display: none;
+}
+.burger--btn.is-open>span:first-child{
+    display: none;
+}
+.burger--btn:not(.is-open)>span:last-child{
+    display: none;
+}
+@media (max-width: 1138px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 767px) {
+    .section.section--navigation >.container{
+        flex-direction: row;
+
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 0px;
+        top: 120px;
+        padding: 20px;
+        background-color: aqua;
+    }
+    .nav:not(.is-open){
+        display: none;
+    }
+    .nav .nav__item:not(:first-child) {
+        margin-left: 0px;
+    }
+    .burger--btn{
+        display: block;
+    }
 }
