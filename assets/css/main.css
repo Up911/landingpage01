@@ -8,18 +8,27 @@
     src: url("../fonts/Rubik-Regular.ttf") format("truetype");
 }
 @font-face {
-    font-family: "Rubik Medium";
+    font-family: "Rubik Regular";
     font-weight: 600;
-    src: url("../fonts/Rubik-Regular.ttf") format("truetype");
+    src: url("../fonts/Rubik-Medium.ttf") format("truetype");
 }
 @font-face {
-    font-family: "Rubik Bold";
+    font-family: "Rubik Regular";
     font-weight: 700;
-    src: url("../fonts/Rubik-Regular.ttf") format("truetype");
+    src: url("../fonts/Rubik-Bold.ttf") format("truetype");
 }
 body{
     font-family: "Rubik Regular";
     font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    line-height: 1.4em;
+    margin: 0px;
+}
+p{
+    line-height: 1.6em;
+    margin: 0px;
 }
 .text-medium{
     font-weight: 600;
@@ -57,6 +66,9 @@ body{
     font-weight: 600;
     color: #0b132a;
     text-align: center;
+    border-width: 0px;
+    border-radius: 10px;
+
 }
 .btn.btn--small{
     line-height: 45px;
@@ -65,17 +77,32 @@ body{
     line-height: 60px;
 }
 .btn.btn--primary {
-    color: #f53855;
+    color: white;
+    border-color: #f53855;
+    background-color: #f53855;
+}
+.btn.btn--success {
+    color: green;
+    border-color: green;
+    background-color: green;
 }
 .btn.btn--link{
 
 }
 .btn.btn--fill{
-
 }
 .btn.btn--outline {
-    border: 1px solid #f53855;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
 }
+.btn.btn--outline.btn--primary{
+    color: #f53855;
+}
+.btn.btn--outline.btn--success{
+    color: green;
+}
+
 .btn.btn--pill{
     border-radius: 50px;
 }
