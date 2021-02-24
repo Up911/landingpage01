@@ -1,1 +1,1 @@
-# landingpage LaslesVPN.
+# landingpage LaslesVPN
