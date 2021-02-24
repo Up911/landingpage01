@@ -193,3 +193,34 @@ p{
         display: block;
     }
 }
+
+
+/* section hero */
+.section--hero {
+    display: flex;
+    align-items: center;
+}
+.container--hero{
+    max-width: 556px;
+    position: relative;
+    padding-right: 40px;
+}
+.title--hero{
+    font-size: 50px;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.paragraph--hero{
+    line-height: 1.6em;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+.img--hero{
+    position: absolute;
+    top: 0px;
+    right: -100%;
+}
+.btn--hero{
+    width: 250px;
+}
