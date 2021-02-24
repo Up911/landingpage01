@@ -196,6 +196,7 @@ p{
 
 
 /* section hero */
+.section{}
 .section--hero {
     display: flex;
     align-items: center;
@@ -216,11 +217,11 @@ p{
     margin: 0px;
     margin-bottom: 50px;
 }
+.btn--hero{
+    width: 250px;
+}
 .img--hero{
     position: absolute;
     top: 0px;
     right: -100%;
-}
-.btn--hero{
-    width: 250px;
 }
