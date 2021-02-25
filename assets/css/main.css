@@ -225,3 +225,9 @@ p{
     top: 0px;
     right: -100%;
 }
+
+/* section info */
+.section{}
+.section--info {
+    display: flex;
+}
