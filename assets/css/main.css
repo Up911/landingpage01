@@ -196,7 +196,6 @@ p{
 
 
 /* section hero */
-.section{}
 .section--hero {
     display: flex;
     align-items: center;
@@ -229,5 +228,13 @@ p{
 /* section info */
 .section{}
 .section--info {
-    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.info{
+    width: 33%;
+    padding: 0 50px;
+    text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
