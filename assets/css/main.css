@@ -21,14 +21,8 @@ body{
     font-family: "Rubik Regular";
     font-size: 16px;
 }
-h1,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6{
     font-weight: 600;
-    line-height: 1.4em;
-    margin: 0px;
-}
-h2 {
-    font-weight: 500;
-    font-size: 35px;
     line-height: 1.4em;
     margin: 0px;
 }
@@ -82,7 +76,6 @@ p{
 }
 .btn.btn--large{
     line-height: 60px;
-    box-shadow: 4px 18px 19px 0px rgba(245, 56, 56, 0.35);
 }
 .btn.btn--primary {
     color: white;
@@ -218,13 +211,13 @@ p{
     position: relative;
     padding-right: 40px;
 }
-.hero--title{
+.title--hero{
     font-size: 50px;
     line-height: 1.4em;
     margin-bottom: 20px;
     margin-top: 0px;
 }
-.hero--paragraph{
+.paragraph--hero{
     line-height: 1.9em;
     margin: 0px;
     margin-bottom: 50px;
@@ -232,7 +225,7 @@ p{
 .btn--hero{
     width: 250px;
 }
-.hero--img{
+.img--hero{
     position: absolute;
     top: -28px;
     right: -54px;
@@ -255,19 +248,23 @@ p{
     border: 0px solid transparent;
     border-radius: 10px;
     background-color: white;
-    box-shadow: -5px 34px 71px -20px rgba(13, 16, 37, 0.13);
+    box-shadow: 0px 10px 30px -10px rgba(50, 50, 50, 0.5);
 }
+
 .info-item {
     display: flex;
 }
+
 .info-item__value {
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 8px;
 }
+
 .info-item__title {
     font-size: 20px;
 }
+
 .info-item__image {
     background-color: #FFECEC;
     width: 60px;
@@ -279,6 +276,7 @@ p{
     align-items: center;
     margin-right: 36px;
 }
+
 .info-divider {
     width: 1px;
     display: block;
@@ -286,27 +284,3 @@ p{
     background-color: #EEEFF2;
 }
 
-
-/* section features */
-.section{}
-
-.section--features .container {
-    position: relative;
-}
-.features{
-    margin-left: 760px;
-    margin-top: 173px;
-    color: #0B132A;
-}
-.feature-list {
-    display: block;
-    padding: 20px;
-}
-.feature-list__item {
-    padding: 5px;
-}
-.features--img{
-    position: absolute;
-    top: -105px;
-    right: 561px;
-}
