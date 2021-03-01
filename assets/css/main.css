@@ -233,10 +233,23 @@ p{
     width: 250px;
 }
 .hero__img{
+    display: flex;
     position: absolute;
     top: -28px;
     right: -54px;
+    max-width: 100%;
 }
+@media (min-width: 420px) {
+    hero__img {
+        max-width: 48%;
+    }
+}
+@media (min-width: 760px) {
+    hero__img {
+        max-width: 24%;
+    }
+}
+
 
 /* section info
 .section{}
