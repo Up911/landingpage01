@@ -283,4 +283,25 @@ p{
     height: 126px;
     background-color: #EEEFF2;
 }
+/* section features */
+.section{}
 
+.section--features .container {
+    position: relative;
+}
+.features{
+    margin-left: 760px;
+    margin-top: 173px;
+    color: #0B132A;
+}
+.feature-list {
+    display: block;
+}
+.feature-list__item {
+    padding: 5px;
+}
+.features--img{
+    position: absolute;
+    top: -105px;
+    right: 561px;
+}
