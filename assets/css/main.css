@@ -233,7 +233,7 @@ p{
     right: -54px;
 }
 
-/* section info */
+/* section info
 .section{}
 .section--info {
     flex-wrap: nowrap;
@@ -285,7 +285,9 @@ p{
     height: 126px;
     background-color: #EEEFF2;
 }
-/* section features */
+ */
+
+/* section features
 .section{}
 
 .section--features .container {
@@ -307,3 +309,4 @@ p{
     top: -105px;
     right: 561px;
 }
+*/
