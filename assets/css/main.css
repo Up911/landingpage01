@@ -55,12 +55,16 @@ p{
         max-width: 750px;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .container{
         max-width: none;
     }
 }
-
+@media (max-width: 600px) {
+    .container{
+        max-width: none;
+    }
+}
 
 /* buttons */
 .btn{
@@ -81,6 +85,7 @@ p{
     color: white;
     border-color: #f53855;
     background-color: #f53855;
+    box-shadow: 4px 18px 19px 0px rgba(245, 56, 56, 0.35);
 }
 .btn.btn--success {
     color: green;
