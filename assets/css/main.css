@@ -310,9 +310,8 @@ p{
 }
 
 
-/* section features
+/* section features*/
 .section{}
-
 .section--features .container {
     position: relative;
 }
@@ -332,4 +331,3 @@ p{
     top: -105px;
     right: 561px;
 }
-*/
