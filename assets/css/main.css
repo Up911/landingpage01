@@ -315,6 +315,14 @@ p{
 .section--features .container {
     position: relative;
 }
+.heading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+
+}
 .features{
     margin-left: 760px;
     margin-top: 173px;
