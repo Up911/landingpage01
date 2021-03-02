@@ -332,6 +332,8 @@ p{
 }
 .feature-list {
     display: block;
+    margin-left: -3px;
+    margin-top: 10px;
 }
 .feature-list__item {
     font-size: 14px;
