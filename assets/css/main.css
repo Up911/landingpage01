@@ -316,10 +316,13 @@ p{
 }
 .heading{
     font-style: normal;
-    font-weight: 500;
     font-size: 35px;
     line-height: 50px;
     color: #0B132A;
+}
+.features__paragraph{
+    font-size: 16px;
+    line-height: 30px;
 }
 .features{
     position: relative;
