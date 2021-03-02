@@ -255,17 +255,18 @@ p{
 
 
 
-/* section info
+/* section info */
 .section{}
 .section--info {
     flex-wrap: nowrap;
     padding-top: 116px;
+    max-width: 100%;
 }
 .info-list{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
     max-width: 1140px;
     margin: 0 auto;
     padding: 37px 16px;
@@ -307,7 +308,7 @@ p{
     height: 126px;
     background-color: #EEEFF2;
 }
- */
+
 
 /* section features
 .section{}
