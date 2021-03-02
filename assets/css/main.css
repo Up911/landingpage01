@@ -323,6 +323,7 @@ p{
     color: #0B132A;
 }
 .features{
+    position: relative;
     margin-left: 760px;
     margin-top: 173px;
     color: #0B132A;
@@ -338,6 +339,15 @@ p{
 }
 .features--img{
     position: absolute;
-    top: -105px;
-    right: 561px;
+}
+@media (max-width: 1140px) {
+    .features {
+        display: flex;
+        flex-direction: column;
+    }
+    .features__img {
+        position: static;
+        top: 28px;
+        right: 300px;
+    }
 }
