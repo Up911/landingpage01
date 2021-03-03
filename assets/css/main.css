@@ -344,6 +344,8 @@ p{
 .features--img {
     position: absolute;
     max-width: 100%;
+    top: -77px;
+    left: 48px;
 }
 @media (max-width: 1140px) {
     .features {
