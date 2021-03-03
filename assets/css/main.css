@@ -317,7 +317,7 @@ p{
     width: 100%;
     padding-bottom: 101px;
 }
-.heading{
+.features--heading{
     font-style: normal;
     font-size: 35px;
     line-height: 50px;
@@ -366,3 +366,21 @@ p{
         right: 300px;
     }
 }
+
+
+/* section plan*/
+.section{}
+.section--plan .container {
+}
+.plan{}
+.plan__heading{}
+.plan__paragraph{}
+.plan-card{}
+.plan-card__title{}
+.plan-one__img{}
+.plan-two__img{}
+.plan-three__img{}
+.plan-card__list{}
+.plan-card__item{}
+.plan-card__price{}
+.plan-card__btn{}
