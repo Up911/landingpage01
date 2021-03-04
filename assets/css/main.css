@@ -370,11 +370,22 @@ p{
 
 /* section plan*/
 .section{}
-.section--plan .container {
+.section--plan.container {
+    width: 100%;
+    padding-top: 80px;
 }
 .plan{}
-.plan__heading{}
-.plan__paragraph{}
+.plan__heading{
+    text-align: center;
+    font-size: 35px;
+    color: #0B132A;
+}
+.plan__paragraph{
+    text-align: center;
+    width: 384px;
+    color: #4F5665;
+;
+}
 .plan-card{}
 .plan-card__title{}
 .plan-one__img{}
