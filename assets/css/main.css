@@ -317,7 +317,7 @@ p{
     width: 100%;
     padding-bottom: 101px;
 }
-.features--heading{
+.features__title{
     font-style: normal;
     font-size: 35px;
     line-height: 50px;
@@ -349,7 +349,7 @@ p{
     color: #4F5665;
     padding: 5px;
 }
-.features--img {
+.features__img {
     position: absolute;
     max-width: 100%;
     top: -77px;
@@ -375,7 +375,7 @@ p{
     padding-top: 80px;
 }
 .plan{}
-.plan__heading{
+.plan__title{
     text-align: center;
     font-size: 35px;
     color: #0B132A;
@@ -384,13 +384,10 @@ p{
     text-align: center;
     width: 384px;
     color: #4F5665;
-;
 }
 .plan-card{}
 .plan-card__title{}
-.plan-one__img{}
-.plan-two__img{}
-.plan-three__img{}
+.plan__img{}
 .plan-card__list{}
 .plan-card__item{}
 .plan-card__price{}
