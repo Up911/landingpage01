@@ -73,7 +73,6 @@ p{
     text-align: center;
     border-width: 0px;
     border-radius: 10px;
-
 }
 .btn.btn--small{
     line-height: 45px;
@@ -93,7 +92,7 @@ p{
     background-color: green;
 }
 .btn.btn--link{
-
+    background-color: transparent;
 }
 .btn.btn--fill{
 }
@@ -378,6 +377,7 @@ p{
 }
 .plan__container{
     display: flex;
+    justify-content: space-between;
     max-width: min-content;
     width: 100%;
     margin: 0 auto;
@@ -399,11 +399,14 @@ p{
 }
 .plan-card{
     display: flex;
+    align-items: center;
     flex-direction: column;
-    width: 330px;
-    height: 760px;
-    border: solid 2px #F53838;
     text-align: center;
+    margin: 50px;
+    max-width: 330px;
+    height: auto;
+    border: solid 2px #F53838;
+    box-sizing: border-box;
 }
 .plan-card__title{
     font-size: 18px;
@@ -422,14 +425,17 @@ p{
     margin: 30px auto auto;
     max-width: min-content;
     width: 100%;
+    margin-top: 30px;
     padding-left: 32px;
     text-align: initial;
 }
 .plan-card__item{
     display: flex;
-    min-width: 206px;
+    min-width: auto;
+    margin-top: 10px;
 }
 .plan-card__price{
+    margin-top: 50px;
     margin-bottom: 20px;
     font-weight: 500;
     font-size: 25px;
@@ -438,12 +444,7 @@ p{
 }
 .plan-card__btn{
     width: 178px;
-    height: 45px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #F53838;
-    border-radius: 50px;
-    border: solid 2px #F53838;
-    margin: 0 auto 64px;
+    margin-top: 20px;
+    margin: 76px;
+    margin-bottom: 50px;
 }
