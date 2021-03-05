@@ -24,11 +24,11 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-weight: 600;
     line-height: 1.4em;
-    margin: 0px;
+    margin: 0;
 }
 p{
     line-height: 1.6em;
-    margin: 0px;
+    margin: 0;
 }
 .text-medium{
     font-weight: 600;
@@ -42,8 +42,8 @@ p{
 .container {
     width: 100%;
     max-width: 1138px;
-    margin: 0px auto;
-    padding: 0px 15px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 @media (max-width: 1138px) {
     .container{
@@ -71,7 +71,7 @@ p{
     font-weight: 600;
     color: #0b132a;
     text-align: center;
-    border-width: 0px;
+    border-width: 0;
     border-radius: 10px;
 }
 .btn.btn--small{
@@ -84,7 +84,7 @@ p{
     color: white;
     border-color: #f53855;
     background-color: #f53855;
-    box-shadow: 4px 18px 19px 0px rgba(245, 56, 56, 0.35);
+    box-shadow: 4px 18px 19px 0 rgba(245, 56, 56, 0.35);
 }
 .btn.btn--success {
     color: green;
@@ -182,7 +182,7 @@ p{
         align-items: center;
         justify-content: center;
         position: absolute;
-        right: 0px;
+        right: 0;
         top: 120px;
         padding: 20px;
         background-color: aqua;
@@ -191,7 +191,7 @@ p{
         display: none;
     }
     .nav .nav__item:not(:first-child) {
-        margin-left: 0px;
+        margin-left: 0;
     }
     .burger--btn{
         display: block;
@@ -222,11 +222,11 @@ p{
     font-size: 50px;
     line-height: 1.4em;
     margin-bottom: 20px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 .hero__paragraph{
     line-height: 1.9em;
-    margin: 0px;
+    margin: 0;
     margin-bottom: 50px;
 }
 .hero__btn{
@@ -265,13 +265,12 @@ p{
     justify-content: space-around;
     align-items: center;
     max-width: 100%;
-    max-width: 1140px;
     margin: 0 auto;
     padding: 37px 16px;
-    border: 0px solid transparent;
+    border: 0 solid transparent;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0px 10px 30px -10px rgba(50, 50, 50, 0.5);
+    box-shadow: 0 10px 30px -10px rgba(50, 50, 50, 0.5);
 }
 
 .info-item {
@@ -292,7 +291,7 @@ p{
     background-color: #FFECEC;
     width: 60px;
     height: 60px;
-    border: 0px solid transparent;
+    border: 0 solid transparent;
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -384,7 +383,7 @@ p{
 }
 .plan__title{
     text-align: center;
-    margin: 0px;
+    margin: 0;
     font-size: 35px;
     line-height: 50px;
     color: #0B132A;
@@ -425,7 +424,6 @@ p{
     margin: 30px auto auto;
     max-width: min-content;
     width: 100%;
-    margin-top: 30px;
     padding-left: 32px;
     text-align: initial;
 }
