@@ -405,6 +405,7 @@ p{
     max-width: 330px;
     height: auto;
     border: solid 2px #F53838;
+    border-radius: 10px;
     box-sizing: border-box;
 }
 .plan__img{
