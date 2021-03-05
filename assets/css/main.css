@@ -374,13 +374,6 @@ p{
     width: 100%;
     padding-top: 80px;
 }
-.plan__container{
-    display: flex;
-    justify-content: space-between;
-    max-width: min-content;
-    width: 100%;
-    margin: 0 auto;
-}
 .plan__title{
     text-align: center;
     margin: 0;
@@ -396,6 +389,13 @@ p{
     font-size: 16px;
     line-height: 30px;
 }
+.plan__container{
+    display: flex;
+    justify-content: space-between;
+    max-width: min-content;
+    width: 100%;
+    margin: 0 auto;
+}
 .plan-card{
     display: flex;
     align-items: center;
@@ -407,16 +407,16 @@ p{
     border: solid 2px #F53838;
     box-sizing: border-box;
 }
-.plan-card__title{
-    font-size: 18px;
-    line-height: 30px;
-    color: #0B132A;
-}
 .plan__img{
     display: block;
     margin: 98px auto 30px;
     width: 145px;
     height: 165px;
+}
+.plan-card__title{
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
 }
 .plan-card__list{
     display: flex;
