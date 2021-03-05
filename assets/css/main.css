@@ -401,7 +401,7 @@ p{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin: 50px;
+    margin-left: 50px;
     max-width: 330px;
     height: auto;
     border: solid 2px #F53838;
@@ -414,7 +414,7 @@ p{
 }
 .plan__img{
     display: block;
-    margin: 100px auto 30px;
+    margin: 98px auto 30px;
     width: 145px;
     height: 165px;
 }
@@ -431,6 +431,8 @@ p{
     display: flex;
     min-width: auto;
     margin-top: 10px;
+    font-size: 14px;
+    line-height: 30px;
 }
 .plan-card__price{
     margin-top: 50px;
