@@ -404,7 +404,7 @@ p{
     margin-left: 50px;
     max-width: 330px;
     height: auto;
-    border: solid 2px #F53838;
+    border: solid 2px #DDDDDD;
     border-radius: 10px;
     box-sizing: border-box;
 }
@@ -429,11 +429,23 @@ p{
     text-align: initial;
 }
 .plan-card__item{
-    display: flex;
-    min-width: auto;
-    margin-top: 10px;
+    display: block;
+    position: relative;
+    min-width: 150px;
     font-size: 14px;
     line-height: 30px;
+    color: #4F5665;
+}
+.plan-card__item::before{
+    content: '';
+    display: block;
+    width: 14px;
+    height: 9px;
+    background: url("../svg/vector1.svg") center / cover no-repeat;
+    position: absolute;
+    top: 50%;
+    left: -32px;
+    transform: translateY(-50%);
 }
 .plan-card__price{
     margin-top: 50px;
