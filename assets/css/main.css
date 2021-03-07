@@ -357,7 +357,6 @@ p{
     height: 20px;
     background: url("../svg/1212.svg") center / cover no-repeat;
 }
-
 .features__img {
     position: absolute;
     max-width: 100%;
@@ -418,6 +417,10 @@ p{
     border: solid 2px #DDDDDD;
     border-radius: 10px;
     box-sizing: border-box;
+    transition: .2s;
+}
+.plan-card:hover{
+    border: solid 2px #f53855;
 }
 .plan__img{
     display: block;
@@ -471,4 +474,9 @@ p{
     margin-top: 20px;
     margin: 76px;
     margin-bottom: 50px;
+}
+.plan-card__btn::hover{
+    background-color: #f53855;
+    color: #DDDDDD;
+    transition: .2s;
 }
