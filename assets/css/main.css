@@ -336,17 +336,28 @@ p{
     color: #0B132A;
 }
 .feature-list {
-    display: block;
-    margin-left: -3px;
-    margin-top: 20px;
+    padding-left: 30px;
+    margin-top: 13px;
 }
 .feature-list__item {
     position: relative;
     font-size: 14px;
     line-height: 30px;
     color: #4F5665;
-    padding: 5px;
+    padding: 5px 0px;
 }
+.feature-list__item::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -32px;
+    transform: translateY(-55%);
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("../svg/1212.svg") center / cover no-repeat;
+}
+
 .features__img {
     position: absolute;
     max-width: 100%;
