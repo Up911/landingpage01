@@ -413,11 +413,12 @@ p{
     text-align: center;
     margin-left: 50px;
     max-width: 330px;
+    min-width: 230px;
     height: auto;
     border: solid 2px #DDDDDD;
     border-radius: 10px;
     box-sizing: border-box;
-    transition: .2s;
+    transition: 0.2s;
 }
 .plan-card:hover{
     border: solid 2px #f53855;
@@ -475,8 +476,8 @@ p{
     margin: 76px;
     margin-bottom: 50px;
 }
-.plan-card__btn::hover{
+.plan-card__btn:hover {
     background-color: #f53855;
     color: #DDDDDD;
-    transition: .2s;
+    transition: 0.2s;
 }
