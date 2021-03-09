@@ -75,10 +75,10 @@ p{
     border-radius: 10px;
 }
 .btn.btn--small{
-    line-height: 45px;
+    line-height: 2.8em;
 }
 .btn.btn--large{
-    line-height: 60px;
+    line-height: 3.8em;
 }
 .btn.btn--primary {
     color: white;
@@ -318,13 +318,13 @@ p{
 .features__title{
     font-style: normal;
     font-size: 35px;
-    line-height: 50px;
+    line-height: 3.1em;
     color: #0B132A;
     width: 384px;
 }
 .features__paragraph{
     font-size: 16px;
-    line-height: 30px;
+    line-height: 3.1em;
     font-weight: normal;
     color: #4F5665;
     width: 427px;
@@ -342,7 +342,7 @@ p{
 .feature-list__item {
     position: relative;
     font-size: 14px;
-    line-height: 30px;
+    line-height: 1.9em;
     color: #4F5665;
     padding: 5px 0px;
 }
@@ -388,7 +388,7 @@ p{
     text-align: center;
     margin: 0px;
     font-size: 35px;
-    line-height: 50px;
+    line-height: 3.1em;
     color: #0B132A;
 }
 .plan__paragraph{
@@ -397,7 +397,7 @@ p{
     width: 384px;
     color: #4F5665;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9em;
 }
 .plan__container{
     display: flex;
@@ -431,7 +431,7 @@ p{
 }
 .plan-card__title{
     font-size: 18px;
-    line-height: 30px;
+    line-height: 1.9em;
     color: #0B132A;
 }
 .plan-card__list{
@@ -448,7 +448,7 @@ p{
     position: relative;
     min-width: 150px;
     font-size: 14px;
-    line-height: 30px;
+    line-height: 1.9em;
     color: #4F5665;
 }
 .plan-card__item::before{
@@ -467,7 +467,7 @@ p{
     margin-bottom: 20px;
     font-weight: 500;
     font-size: 25px;
-    line-height: 30px;
+    line-height: 1.9em;
     color: #0B132A;
 }
 .plan-card__btn{
