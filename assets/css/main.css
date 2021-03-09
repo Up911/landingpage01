@@ -387,6 +387,8 @@ p{
 .plan__title{
     text-align: center;
     margin: 0px;
+    width: 384px;
+    height: 50px;
     font-size: 35px;
     line-height: 3.1em;
     color: #0B132A;
@@ -394,7 +396,8 @@ p{
 .plan__paragraph{
     margin: 20px auto 60px;
     text-align: center;
-    width: 384px;
+    width: 555px;
+    height: 60px;
     color: #4F5665;
     font-size: 16px;
     line-height: 1.9em;
@@ -414,7 +417,7 @@ p{
     margin-left: 50px;
     max-width: 330px;
     min-width: 230px;
-    height: auto;
+    height: 760px;
     border: solid 2px #DDDDDD;
     border-radius: 10px;
     box-sizing: border-box;
@@ -472,8 +475,8 @@ p{
 }
 .plan-card__btn{
     width: 178px;
-    margin-top: 20px;
-    margin: 76px;
+    height: 45px;
+    margin: 20px;
     margin-bottom: 50px;
 }
 .plan-card__btn:hover {
