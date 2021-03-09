@@ -481,3 +481,38 @@ p{
     color: #DDDDDD;
     transition: 0.2s;
 }
+
+
+/* section network*/
+.network{
+    width: 100%;
+}
+.network__title{
+    margin: 150px auto 20px;
+    text-align: center;
+    width: 384px;
+    color: #0B132A;
+    font-size: 35px;
+    line-height: 50px;
+}
+.network__paragraph{
+    margin: 0px auto;
+    text-align: center;
+    color: #4F5665;
+    font-size: 16px;
+    line-height: 30px;
+}
+.network-map__img{
+    display: block;
+    margin: 155px auto 36px;
+    width: 1060px;
+    height: 538px;
+}
+.network-img__list{
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px auto 0px;
+}
