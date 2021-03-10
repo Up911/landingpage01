@@ -520,3 +520,46 @@ p{
 
 
 /* section comment*/
+.comment{
+    width: 100%;
+    position: relative;
+}
+.comment__title{
+    text-align: center;
+    width: 448px;
+    margin: 50px auto 20px;
+    color: #0B132A;
+    font-size: 35px;
+    line-height: 50px;
+}
+.network__paragraph{
+    width: 555px;
+    text-align: center;
+    margin: 0px auto;
+    color: #4F5665;
+    font-size: 16px;
+    line-height: 30px;
+}
+.comment__reviews{
+    padding-bottom: 182px;
+}
+.comment__slider{
+    display: flex;
+    max-width: min-content;
+    width: 100%;
+    height: 230px;
+    margin: 60px auto 0px;
+}
+.comment__cards{
+    border: solid 2px #DDDDDD;
+    width: 400px;
+    height: 230px;
+    transition: 0.2s;
+}
+.comment__cards:not(:first-child){
+    margin-left: 50px;
+}
+.comment__cards:hover{
+    border: solid 2px #f53855;
+    transition: 0.2s;
+}
