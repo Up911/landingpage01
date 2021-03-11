@@ -411,7 +411,6 @@ p{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin-left: 50px;
     max-width: 330px;
     min-width: 330px;
     height: 760px;
@@ -419,6 +418,9 @@ p{
     border-radius: 10px;
     box-sizing: border-box;
     transition: 0.2s;
+}
+.plan-card:not(:first-child){
+    margin-left: 50px;
 }
 .plan-card:hover{
     border: solid 2px #f53855;
