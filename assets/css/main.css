@@ -425,7 +425,7 @@ p{
 .plan-card:hover{
     border: solid 2px #f53855;
 }
-.plan__img{
+.plan-card__img{
     display: block;
     margin: 98px auto 30px;
     width: 145px;
@@ -534,7 +534,7 @@ p{
     font-size: 35px;
     line-height: 50px;
 }
-.network__paragraph{
+.comment__paragraph{
     width: 555px;
     text-align: center;
     margin: 0px auto;
@@ -552,21 +552,21 @@ p{
     height: 230px;
     margin: 60px auto 0px;
 }
-.comment__cards{
+.comment-card{
     border: solid 2px #DDDDDD;
     border-radius: 10px;
     width: 400px;
     height: 230px;
     transition: 0.2s;
 }
-.comment__cards:not(:first-child){
+.comment-card:not(:first-child){
     margin-left: 50px;
 }
-.comment__cards:hover{
+.comment-card:hover{
     border: solid 2px #f53855;
     transition: 0.2s;
 }
-.comment-cards__header{
+.comment-card__header{
     display: flex;
     align-items: center;
     height: 40px;
@@ -606,7 +606,7 @@ p{
 .comment-card__star{
     margin-right: 42px;
 }
-.comment-cards__text{
+.comment-card__text{
     display: block;
     margin: 20px 30px 0px;
     font-size: 16px;
