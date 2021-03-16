@@ -182,6 +182,7 @@ p {
 
 .logo__icon {
     margin-right: 10px;
+    margin-bottom: -16px;
 }
 
 .logo__icon--red {
@@ -189,6 +190,7 @@ p {
 
 .logo__title {
     font-size: 20px;
+    margin-bottom: -15px;
 }
 
 .nav {
@@ -570,7 +572,6 @@ p {
 
 .plan-card__btn {
     width: 178px;
-    height: 45px;
     margin-bottom: 50px;
 }
 
