@@ -89,7 +89,7 @@ p {
 
 /* buttons */
 .btn {
-    font-weight: 600;
+    font-weight: 700;
     color: #0b132a;
     text-align: center;
     border-width: 0px;
@@ -107,7 +107,7 @@ p {
 .btn.btn--primary {
     color: white;
     border-color: #f53855;
-    background-color: #f53855;
+    background-color: #F53838;
     box-shadow: 4px 18px 19px 0 rgba(245, 56, 56, 0.35);
 }
 
@@ -345,17 +345,20 @@ p {
 .info-item__value {
     font-size: 25px;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
+    line-height: 30px;
+    color: #0B132A;
 }
 
 .info-item__title {
     font-size: 20px;
+    line-height: 30px;
 }
 
 .info-item__image {
     background-color: #FFECEC;
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     border: 0px solid transparent;
     border-radius: 30px;
     display: flex;
@@ -396,7 +399,7 @@ p {
     line-height: 30px;
     font-weight: normal;
     color: #4F5665;
-    width: 427px;
+    width: 428px;
 }
 
 .features {
