@@ -458,10 +458,13 @@ p {
 
 
 /* section plan*/
-.section {
-}
+.section {}
 
-.section--plan.container {
+.plan-header {
+    justify-content: space-between;
+    max-width: min-content;
+    width: 100%;
+    margin: 0px auto;
 }
 
 .plan {
