@@ -36,16 +36,13 @@ p {
     margin: 0px;
 }
 
-.text-medium {
+.text-semi-bold {
     font-weight: 600;
+    line-height: 1.8em;
 }
 
 .text-bold {
     font-weight: 700;
-}
-.text-h1{
-    line-height: 30px;
-    font-weight: 600;
 }
 
 .text-muted {
@@ -458,7 +455,8 @@ p {
 
 
 /* section plan*/
-.section {}
+.section {
+}
 
 .plan-header {
     justify-content: space-between;
@@ -583,6 +581,7 @@ p {
     color: #DDDDDD;
     transition: 0.2s;
 }
+
 .btn.btn--outline.btn--primary:hover {
     color: #fff;
 }
@@ -802,7 +801,8 @@ footer p {
     font-size: 16px;
     line-height: 30px;
 }
-.col--links a:hover{
+
+.col--links a:hover {
     text-decoration: underline;
     color: #f53855;
 }
