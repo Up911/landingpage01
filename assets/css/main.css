@@ -339,6 +339,8 @@ p {
 
 .info-item {
     display: flex;
+    margin-bottom: 14px;
+    margin-right: 17px;
 }
 
 .info-item__value {
@@ -364,6 +366,7 @@ p {
     justify-content: center;
     align-items: center;
     margin-right: 36px;
+    margin-top: 5px;
 }
 
 .info-divider {
@@ -751,7 +754,7 @@ p {
 .comment-slider__block {
     display: flex;
     justify-content: space-between;
-    max-width: 105px;
+    max-width: 134px;
     width: 100%;
     height: 15px;
 }
