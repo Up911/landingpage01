@@ -394,6 +394,7 @@ p {
     line-height: 50px;
     color: #0B132A;
     width: 384px;
+    margin: -31px -48px;
 }
 
 .features__paragraph {
@@ -402,6 +403,8 @@ p {
     font-weight: normal;
     color: #4F5665;
     width: 428px;
+    margin-top: 52px;
+    margin-left: -49px;
 }
 
 .features {
@@ -422,6 +425,7 @@ p {
     line-height: 30px;
     color: #4F5665;
     padding: 5px 0px;
+    margin-left: -44px;
 }
 
 .feature-list__item::before {
@@ -439,7 +443,7 @@ p {
 .features__img {
     position: absolute;
     max-width: 100%;
-    top: -77px;
+    top: -53px;
     left: 48px;
 }
 
