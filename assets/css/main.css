@@ -806,6 +806,51 @@ p {
 }
 
 
+/* section comment subscribe*/
+.comment-subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 0px;
+    right: 0px;
+
+    max-width: 1140px;
+    width: 100%;
+    height: 233px;
+    margin: 86px auto -117px;
+    border-radius: 10px;
+    border: solid 2px #DDDDDD;
+    background-color: #ffffff;
+}
+.comment-subscribe__container{
+
+}
+.comment-subscribe__title{
+    width: 372px;
+    font-size: 35px;
+    color: #0B132A;
+}
+
+.comment-subscribe__paragraph{
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.comment-subscribe__btn{
+    margin-left: 379px;
+    width: 250px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #F53838;
+    color: #FFFFFF
+}
+
+
 /* section footer */
 footer {
     background: #F8F8F8;
