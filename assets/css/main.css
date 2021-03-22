@@ -835,16 +835,19 @@ p {
 
 .comment-subscribe__title{
     width: 372px;
+    height: 80px;
     font-size: 35px;
     line-height: 45px;
-    margin: 59px 70px 20px;
+    margin: 58px 70px 20px;
     color: #0B132A;
 }
 
 .comment-subscribe__paragraph{
+    width: 410px;
+    height: 16px;
     font-size: 16px;
     line-height: 30px;
-    margin: 0px 70px 59px;
+    margin: 20px 70px 58px;
     color: #4F5665;
 }
 
