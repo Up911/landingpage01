@@ -572,7 +572,7 @@ p {
 
 .plan-card__price {
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 9px;
     font-weight: 500;
     font-size: 25px;
     line-height: 30px;
@@ -633,7 +633,15 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 60px auto 0px;
+    margin: 37px auto 0px;
+}
+.network-img__netflix{
+    width: 200px;
+    height: 113px;
+}
+.network-img__size{
+    width: 190px;
+    height: 60px;
 }
 
 
@@ -842,7 +850,7 @@ p {
 
 .comment-subscribe__btn{
     text-align: center;
-    margin: 87px 70px 87px;
+    margin: 87px 70px 57px;
     width: 250px;
     height: 60px;
     font-size: 16px;
