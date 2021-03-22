@@ -207,7 +207,8 @@ p {
 }
 
 .buttons > .btn.btn--pill {
-    width: 146px;
+    width: 150px;
+    height: 45px;
 }
 
 .burger--btn {
@@ -479,7 +480,7 @@ p {
 
 .plan__title {
     text-align: center;
-    margin: 0px;
+    margin-top: 38px;
     font-size: 35px;
     line-height: 50px;
     color: #0B132A;
@@ -580,6 +581,7 @@ p {
 
 .plan-card__btn {
     width: 178px;
+    height: 45px;
     margin-bottom: 50px;
 }
 
