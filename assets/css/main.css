@@ -23,12 +23,22 @@
 body {
     font-family: "Rubik Regular";
     font-size: 16px;
+    color: #4F5665;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     line-height: 1.4em;
     margin: 0px;
+    color: #0B132A;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
 }
 
 p {
@@ -153,6 +163,9 @@ p {
     align-items: center;
 }
 
+.overflow-hidden {
+    overflow: hidden;
+}
 
 /* section navigation */
 .section {
@@ -193,6 +206,7 @@ p {
     margin-bottom: 4px;
     font-size: 20px;
 }
+
 .logo__title--subscribe {
     width: 104px;
     height: 24px;
@@ -286,9 +300,7 @@ p {
 }
 
 .hero__title {
-    width: 555px;
-    font-size: 50px;
-    line-height: 1.4em;
+    max-width: 555px;
     margin-bottom: 20px;
     margin-top: 0px;
 }
@@ -400,20 +412,13 @@ p {
 }
 
 .features__title {
-    font-style: normal;
-    font-size: 35px;
-    line-height: 50px;
-    color: #0B132A;
-    width: 384px;
+    max-width: 384px;
     margin: -31px -48px;
 }
 
 .features__paragraph {
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: normal;
     color: #4F5665;
-    width: 428px;
+    max-width: 428px;
     margin-top: 52px;
     margin-left: -49px;
 }
@@ -491,19 +496,12 @@ p {
 .plan__title {
     text-align: center;
     margin-top: 38px;
-    font-size: 35px;
-    line-height: 50px;
-    color: #0B132A;
 }
 
 .plan__paragraph {
     margin: 20px auto 60px;
     text-align: center;
-    width: 555px;
-    height: 60px;
-    color: #4F5665;
-    font-size: 16px;
-    line-height: 30px;
+    max-width: 555px;
 }
 
 .plan__container {
@@ -539,8 +537,7 @@ p {
 .plan-card__img {
     display: block;
     margin: 79px auto 30px;
-    width: 145px;
-    height: 165px;
+    max-width: 145px;
 }
 
 .plan-card__title {
@@ -565,7 +562,6 @@ p {
     min-width: 150px;
     font-size: 14px;
     line-height: 30px;
-    color: #4F5665;
 }
 
 .plan-card__item::before {
@@ -588,7 +584,8 @@ p {
     line-height: 30px;
     color: #0B132A;
 }
-.card-price__color{
+
+.card-price__color {
     color: #4F5665;
 }
 
@@ -617,20 +614,13 @@ p {
 .network__title {
     margin: 150px auto 20px;
     text-align: center;
-    width: 384px;
-    color: #0B132A;
-    font-size: 35px;
-    line-height: 50px;
+    max-width: 384px;
 }
 
 .network__paragraph {
     margin: 0px auto;
     text-align: center;
-    width: 555px;
-    height: 60px;
-    color: #4F5665;
-    font-size: 16px;
-    line-height: 30px;
+    max-width: 555px;
 }
 
 .network-map__img {
@@ -648,11 +638,13 @@ p {
     justify-content: space-between;
     margin: 37px auto 0px;
 }
-.network-img__netflix{
+
+.network-img__netflix {
     width: 200px;
     height: 113px;
 }
-.network-img__size{
+
+.network-img__size {
     width: 190px;
     height: 60px;
 }
@@ -662,42 +654,36 @@ p {
 .comment {
     width: 100%;
     position: relative;
+    padding-top: 50px;
+    padding-bottom: 144px;
 }
 
 .comment__title {
     text-align: center;
-    width: 448px;
-    margin: 50px auto 20px;
-    color: #0B132A;
-    font-size: 35px;
-    line-height: 50px;
+    max-width: 448px;
+    margin: 0px auto 20px;
 }
 
 .comment__paragraph {
-    width: 555px;
+    max-width: 555px;
     text-align: center;
-    margin: 0px auto;
-    color: #4F5665;
-    font-size: 16px;
-    line-height: 30px;
+    margin: 0px auto 50px;
 }
 
 .comment__reviews {
-    padding-bottom: 80px;
 }
 
 .comment__slider {
     display: flex;
-    max-width: min-content;
-    width: 100%;
-    height: 230px;
-    margin: 61px 374px 0px;
+    width: 2000px;
+    margin-bottom: 50px;
+    position: relative;
 }
 
 .comment-card {
     border: solid 2px #DDDDDD;
     border-radius: 10px;
-    width: 400px;
+    max-width: 400px;
     height: 230px;
     transition: 0.2s;
 }
@@ -714,8 +700,8 @@ p {
 .comment-card__header {
     display: flex;
     align-items: center;
-    height: 40px;
     width: 100%;
+    height: 40px;
     padding: 30px 30px 0px;
 }
 
@@ -761,7 +747,6 @@ p {
 .comment-card__text {
     display: block;
     margin: 20px 30px 0px;
-    font-size: 16px;
     line-height: 30px;
     color: #0B132A
 }
@@ -771,11 +756,9 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 60px auto 64px;
     max-width: 1140px;
-    height: 60px;
     width: 100%;
-
+    height: 60px;
 }
 
 .comment-slider__block {
@@ -832,60 +815,53 @@ p {
 
 
 /* section footer subscribe*/
-.comment-subscribe{
+.subscribe {
+    position: relative;
+}
+
+.subscribe::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 50%;
+    bottom: 0px;
+}
+
+.comment-subscribe {
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    left: 0px;
-    right: 0px;
-    max-width: 1140px;
-    width: 100%;
-    height: 233px;
-    margin: -161px auto 67px;
+    z-index: 1;
     border-radius: 10px;
     border: solid 2px #ffffff;
     background-color: #ffffff;
+    padding: 50px 70px;
 }
 
-.comment-subscribe__title{
-    width: 372px;
-    height: 80px;
-    font-size: 35px;
-    line-height: 45px;
-    margin: 58px 70px -5px;
-    color: #0B132A;
+.comment-subscribe__title {
+    max-width: 372px;
+    margin-bottom: 10px;
 }
 
-.comment-subscribe__paragraph{
-    width: 410px;
-    height: 16px;
-    font-size: 16px;
-    line-height: 30px;
-    margin: 20px 70px 40px;
-    color: #4F5665;
+.comment-subscribe__paragraph {
+    max-width: 410px;
+    margin: 0px;
 }
 
-.comment-subscribe__btn{
-    text-align: center;
-    margin: 87px 70px 64px;
+.comment-subscribe__btn {
     width: 250px;
-    height: 60px;
-    font-size: 16px;
-    line-height: 25px;
-    border-radius: 10px;
-    border: solid 2px #FFECEC;
-    background-color: #F53838;
-    color: #FFFFFF
 }
 
 
 /* section footer */
 footer {
     background: #F8F8F8;
+    width: 100%;
     padding-top: 64px;
     padding-bottom: 100px;
-    width: 100%;
 }
 
 .row {
@@ -938,14 +914,12 @@ footer p {
 .col--links h4 {
     margin-bottom: 20px;
     font-size: 18px;
-    color: #0B132A;
 }
 
 .col--links a {
     color: #4F5665;
     text-decoration: none;
     margin-bottom: 10px;
-    font-size: 16px;
     line-height: 30px;
 }
 
