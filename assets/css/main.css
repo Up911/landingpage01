@@ -166,7 +166,8 @@ p {
 .overflow-hidden {
     overflow: hidden;
 }
-.cursor-pointer{
+
+.cursor-pointer {
     cursor: pointer;
 }
 
@@ -817,7 +818,7 @@ p {
 }
 
 
-/* section footer subscribe*/
+/* section subscribe*/
 .subscribe {
     position: relative;
 }
@@ -832,7 +833,7 @@ p {
     bottom: 0px;
 }
 
-.comment-subscribe {
+.subscribe-now {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -844,17 +845,17 @@ p {
     padding: 50px 70px;
 }
 
-.comment-subscribe__title {
+.subscribe-now__title {
     max-width: 372px;
     margin-bottom: 10px;
 }
 
-.comment-subscribe__paragraph {
+.subscribe-now__paragraph {
     max-width: 410px;
     margin: 0px;
 }
 
-.comment-subscribe__btn {
+.subscribe-now__btn {
     width: 250px;
 }
 
