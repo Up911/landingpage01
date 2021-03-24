@@ -166,6 +166,9 @@ p {
 .overflow-hidden {
     overflow: hidden;
 }
+.cursor-pointer{
+    cursor: pointer;
+}
 
 /* section navigation */
 .section {
