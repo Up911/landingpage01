@@ -102,10 +102,22 @@ p {
     border-width: 0px;
     border-radius: 10px;
 }
+.btn.btn--sign-in{
+    line-height: 45px;
+    border: solid 2px;
+}
+
+.btn.btn--sign-in:hover{
+    background-color: #0B132A;
+    color: #ffffff;
+    transition: 0.2s;
+    outline: none;
+}
 
 .btn.btn--small {
     line-height: 45px;
 }
+
 
 .btn.btn--large {
     line-height: 60px;
@@ -304,7 +316,7 @@ p {
 }
 
 .hero__title {
-    max-width: 555px;
+    width: 555px;
     margin-bottom: 20px;
     margin-top: 0px;
 }
