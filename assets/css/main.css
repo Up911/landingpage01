@@ -827,12 +827,13 @@ p {
     border: 2px solid #F53838;
     box-sizing: border-box;
     border-radius: 50%;
+    color: #F53838;
     outline: none;
 }
 
 .comment-slider__arrow:last-child {
     margin-left: 20px;
-    background-color: #F53838;
+
 }
 
 .comment-slider__img {
