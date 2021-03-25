@@ -104,37 +104,46 @@ p {
 }
 .btn.btn--sign-in{
     line-height: 45px;
-    outline: none;
 }
 
 .btn.btn--sign-in:hover{
     background-color: #0B132A;
     color: #ffffff;
     transition: 0.2s;
+}
 
+.btn.btn--sign-up{
+    color: #f53855;
+    border-color: #f53855;
+    background-color: #f53855;
+}
+
+.btn.btn--sign-up:hover{
+    background-color: #F53838;
+    color: #ffffff;
+    transition: 0.2s;
 }
 
 .btn.btn--small {
     line-height: 45px;
+    outline: none;
 }
-
 
 .btn.btn--large {
     line-height: 60px;
+    outline: none;
 }
 
 .btn.btn--primary {
-    color: white;
-    border-color: #f53855;
-    background-color: #F53838;
-    box-shadow: 4px 18px 19px 0 rgba(245, 56, 56, 0.35);
-    outline: none;
-}
-.btn.btn--primary:hover{
-    background-color: #F53838;
     color: #ffffff;
-    transition: 0.2s;
+    border-color: #f53855;
+    background-color: #f53855;
+    box-shadow: 4px 18px 19px 0 rgba(245, 56, 56, 0.35);
+}
 
+.btn.btn--primary:hover{
+    background-color: #FFFFFF;
+    color: #F53838;
 }
 
 .btn.btn--success {
@@ -168,7 +177,26 @@ p {
     border-radius: 50px;
 }
 
+.hero__btn {
+    width: 250px;
+}
 
+.plan-card__btn {
+    width: 178px;
+    height: 45px;
+    margin-bottom: 50px;
+}
+
+.plan-card__btn:hover {
+    background-color: #f53855;
+    color: #F53838;
+    transition: 0.2s;
+}
+
+
+.btn.btn--outline.btn--primary:hover {
+    color: #fff;
+}
 /* utils */
 .display-flex {
     display: flex;
@@ -333,10 +361,6 @@ p {
     line-height: 1.9em;
     margin-bottom: 50px;
     color: #4F5665;
-}
-
-.hero__btn {
-    width: 250px;
 }
 
 .hero__img {
@@ -612,21 +636,6 @@ p {
     color: #4F5665;
 }
 
-.plan-card__btn {
-    width: 178px;
-    height: 45px;
-    margin-bottom: 50px;
-}
-
-.plan-card__btn:hover {
-    background-color: #f53855;
-    color: #DDDDDD;
-    transition: 0.2s;
-}
-
-.btn.btn--outline.btn--primary:hover {
-    color: #fff;
-}
 
 
 /* section network*/
@@ -823,7 +832,7 @@ p {
     border: 2px solid #F53838;
     box-sizing: border-box;
     border-radius: 50%;
-
+    outline: none;
 }
 
 .comment-slider__arrow:last-child {
