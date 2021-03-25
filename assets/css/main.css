@@ -103,7 +103,8 @@ p {
     border-radius: 10px;
 }
 .btn.btn--sign-in{
-    line-height: 45px;
+    line-height: 30px;
+    padding: 6px 30px;
 }
 
 .btn.btn--sign-in:hover{
@@ -156,9 +157,6 @@ p {
     background-color: transparent;
 }
 
-.btn.btn--fill {
-}
-
 .btn.btn--outline {
     border-width: 1px;
     border-style: solid;
@@ -177,20 +175,13 @@ p {
     border-radius: 50px;
 }
 
-.hero__btn {
-    width: 250px;
-}
-
 .plan-card__btn {
     width: 178px;
     height: 45px;
     margin-bottom: 50px;
 }
-
-.plan-card__btn:hover {
-    background-color: #f53855;
-    color: #F53838;
-    transition: 0.2s;
+.plan-card__btn:hover{
+    box-shadow: 4px 18px 19px 0 rgba(245, 56, 56, 0.35);
 }
 
 
@@ -361,6 +352,10 @@ p {
     line-height: 1.9em;
     margin-bottom: 50px;
     color: #4F5665;
+}
+
+.hero__btn {
+    width: 250px;
 }
 
 .hero__img {
