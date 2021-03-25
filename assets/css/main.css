@@ -104,14 +104,14 @@ p {
 }
 .btn.btn--sign-in{
     line-height: 45px;
-    border: solid 2px;
+    outline: none;
 }
 
 .btn.btn--sign-in:hover{
     background-color: #0B132A;
     color: #ffffff;
     transition: 0.2s;
-    outline: none;
+
 }
 
 .btn.btn--small {
@@ -128,6 +128,13 @@ p {
     border-color: #f53855;
     background-color: #F53838;
     box-shadow: 4px 18px 19px 0 rgba(245, 56, 56, 0.35);
+    outline: none;
+}
+.btn.btn--primary:hover{
+    background-color: #F53838;
+    color: #ffffff;
+    transition: 0.2s;
+
 }
 
 .btn.btn--success {
