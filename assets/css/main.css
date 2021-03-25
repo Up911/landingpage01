@@ -833,7 +833,6 @@ p {
 
 .comment-slider__arrow:hover{
     background-color: #F53838;
-    color: #ffffff;
     transition: 0.2s;
 }
 
@@ -844,6 +843,13 @@ p {
 .comment-slider__img {
     width: 20px;
     height: 19px;
+    margin: -8px;
+}
+
+.comment-hover__img{
+    width: 20px;
+    height: 19px;
+    margin: -12px;
 }
 
 /* section subscribe*/
