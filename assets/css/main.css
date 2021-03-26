@@ -102,24 +102,25 @@ p {
     border-width: 0px;
     border-radius: 10px;
 }
-.btn.btn--sign-in{
+
+.btn.btn--sign-in {
     line-height: 30px;
     padding: 6px 30px;
 }
 
-.btn.btn--sign-in:hover{
+.btn.btn--sign-in:hover {
     background-color: #0B132A;
     color: #ffffff;
     transition: 0.2s;
 }
 
-.btn.btn--sign-up{
+.btn.btn--sign-up {
     color: #f53855;
     border-color: #f53855;
     background-color: #f53855;
 }
 
-.btn.btn--sign-up:hover{
+.btn.btn--sign-up:hover {
     background-color: #F53838;
     color: #ffffff;
     transition: 0.2s;
@@ -142,7 +143,7 @@ p {
     box-shadow: 4px 18px 19px 0 rgba(245, 56, 56, 0.35);
 }
 
-.btn.btn--primary:hover{
+.btn.btn--primary:hover {
     background-color: #ffffff;
     color: #F53838;
     transition: 0.2s;
@@ -181,7 +182,8 @@ p {
     height: 45px;
     margin-bottom: 50px;
 }
-.plan-card__btn:hover{
+
+.plan-card__btn:hover {
     box-shadow: 4px 18px 19px 0 rgba(245, 56, 56, 0.35);
 }
 
@@ -189,6 +191,7 @@ p {
 .btn.btn--outline.btn--primary:hover {
     color: #fff;
 }
+
 /* utils */
 .display-flex {
     display: flex;
@@ -260,6 +263,17 @@ p {
 .nav {
     width: 100%;
     max-width: 450px;
+}
+
+.nav__item {
+    color: #4F5665;
+    text-decoration: none;
+}
+
+.nav__item:hover {
+    text-decoration: underline;
+    color: #f53855;
+    transition: 0.2s;
 }
 
 .nav .nav__item:not(:first-child) {
@@ -633,7 +647,6 @@ p {
 }
 
 
-
 /* section network*/
 .network {
     width: 100%;
@@ -832,7 +845,7 @@ p {
     outline: none;
 }
 
-.comment-slider__arrow:hover{
+.comment-slider__arrow:hover {
     background-color: #F53838;
     transition: 0.2s;
 }
@@ -847,7 +860,7 @@ p {
     margin: -8px;
 }
 
-.comment-hover__img{
+.comment-hover__img {
     width: 20px;
     height: 19px;
     margin: -12px;
@@ -941,11 +954,13 @@ footer p {
     width: 33.6px;
     transition: 0.2s;
 }
-.social:hover{
+
+.social:hover {
     transform: scale(1.2);
     transition: 0.2s;
 }
-.social__footer--icon{
+
+.social__footer--icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -953,7 +968,6 @@ footer p {
     height: 38px;
     width: 38px;
 }
-
 
 .col--desc {
     max-width: 342px;
