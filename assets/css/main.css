@@ -905,14 +905,9 @@ p {
     margin: 37px auto 0px;
 }
 
-.network-img__netflix {
-    width: 200px;
-    height: 113px;
-}
-
 .network-img__size {
-    width: 190px;
-    height: 60px;
+    max-width: 233px;
+    max-height: 172px;
 }
 
 
