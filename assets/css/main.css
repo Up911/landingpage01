@@ -418,11 +418,36 @@ p {
 }
 
 @media (max-width: 768px) {
-
+    .hero__title {
+        max-width: 555px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        font-size: 1.9em;
+    }
+    .hero__paragraph {
+        font-size: 16px;
+        line-height: 1.4em;
+        margin-bottom: 50px;
+        color: #4F5665;
+    }
 }
 
 @media (max-width: 600px) {
-
+    .section--hero{
+        padding-top: 40px;
+    }
+    .hero__title {
+        max-width: 555px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        font-size: 1.4em;
+    }
+    .hero__paragraph {
+        font-size: 16px;
+        line-height: 1em;
+        margin-bottom: 25px;
+        color: #4F5665;
+    }
 }
 
 /* section info */
