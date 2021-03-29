@@ -380,22 +380,24 @@ p {
     max-width: 100%;
 }
 
-@media (min-width: 1280px){
-    .hero__title{
+@media (min-width: 1280px) {
+    .hero__title {
         width: 555px;
         font-size: 50px;
     }
+
     .hero__paragraph {
         max-width: 555px;
         font-size: 16px;
     }
 }
 
-@media (max-width: 1279px){
-    .hero__title{
+@media (max-width: 1279px) {
+    .hero__title {
         max-width: 555px;
         font-size: 45px;
     }
+
     .hero__paragraph {
         max-width: 555px;
         font-size: 16px;
@@ -407,7 +409,8 @@ p {
         display: flex;
         flex-direction: column;
     }
-    .hero__title{
+
+    .hero__title {
         max-width: 555px;
         font-size: 45px;
     }
@@ -424,7 +427,8 @@ p {
         display: flex;
         flex-direction: column;
     }
-    .hero__title{
+
+    .hero__title {
         max-width: 555px;
         font-size: 44px;
     }
@@ -441,10 +445,12 @@ p {
         display: flex;
         flex-direction: column;
     }
-    .hero__title{
+
+    .hero__title {
         max-width: 555px;
         font-size: 30px;
     }
+
     .hero__paragraph {
         text-align: left;
         font-size: 14px;
@@ -459,46 +465,54 @@ p {
 }
 
 @media (max-width: 992px) {
-    .hero{
+    .hero {
         text-align: center;
         padding-right: 0px;
     }
-    .section--hero{
+
+    .section--hero {
         padding-top: 40px;
     }
+
     .section--hero .container {
         flex-direction: column-reverse;
     }
-    .hero__img{
+
+    .hero__img {
         margin-bottom: 26px;
         width: 75%;
     }
-    .hero__title{
+
+    .hero__title {
         text-align: left;
         max-width: 555px;
         font-size: 47px;
 
     }
+
     .hero__paragraph {
         text-align: left;
         font-size: 16px;
 
     }
-    .hero__btn{
+
+    .hero__btn {
         margin: 0px auto;
     }
 }
 
 @media (max-width: 768px) {
-    .hero__img{
+    .hero__img {
         width: 90%;
     }
+
     .hero__title {
         margin-bottom: 20px;
         margin-top: 0px;
         font-size: 30px;
         text-align: center;
     }
+
     .hero__paragraph {
         font-size: 16px;
         line-height: 1.4em;
@@ -508,18 +522,21 @@ p {
 }
 
 @media (max-width: 600px) {
-    .section--hero{
+    .section--hero {
         padding-top: 40px;
     }
-    .hero__img{
+
+    .hero__img {
         width: 90%;
     }
+
     .hero__title {
         text-align: center;
         margin-bottom: 25px;
         margin-top: 25px;
         font-size: 30px;
     }
+
     .hero__paragraph {
         text-align: center;
         font-size: 16px;
@@ -529,19 +546,22 @@ p {
 }
 
 @media (max-width: 380px) {
-    .section--hero{
+    .section--hero {
         padding-top: 40px;
     }
-    .hero__img{
+
+    .hero__img {
         width: 100%;
         margin-bottom: 25px;
     }
+
     .hero__title {
         text-align: left;
         margin-bottom: 30px;
         margin-top: 25px;
         font-size: 32px;
     }
+
     .hero__paragraph {
         text-align: left;
         font-size: 17px;
@@ -551,19 +571,22 @@ p {
 }
 
 @media (max-width: 320px) {
-    .section--hero{
+    .section--hero {
         padding-top: 40px;
     }
-    .hero__img{
+
+    .hero__img {
         width: 100%;
         margin-bottom: 10px;
     }
+
     .hero__title {
         text-align: left;
         margin-bottom: 20px;
         margin-top: 25px;
         font-size: 27px;
     }
+
     .hero__paragraph {
         text-align: left;
         font-size: 14px;
@@ -573,19 +596,22 @@ p {
 }
 
 @media (max-width: 290px) {
-    .section--hero{
+    .section--hero {
         padding-top: 40px;
     }
-    .hero__img{
+
+    .hero__img {
         width: 100%;
         margin-bottom: 25px;
     }
+
     .hero__title {
         text-align: left;
         margin-bottom: 30px;
         margin-top: 25px;
         font-size: 24px;
     }
+
     .hero__paragraph {
         text-align: left;
         font-size: 14px;
