@@ -869,6 +869,92 @@ p {
     color: #4F5665;
 }
 
+/*** @media plan ***/
+
+@media (min-width: 1400px) {
+    .plan__container{
+        padding: 75px 0px;
+    }
+    .plan-card{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .plan__container{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .plan-card{
+        margin-bottom: 10px;
+
+    }
+    .plan-card:not(:first-child) {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 992px) {
+    .plan-card{
+        max-height: 644px;
+
+    }
+    .plan__title{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .plan__paragraph{
+        font-size: 16px;
+    }
+    .plan-card__img{
+        margin: 30px auto 20px;
+    }
+    .plan-card__list{
+        margin: 20px auto 10px;
+    }
+    .plan-card__price{
+        margin-top: 50px;
+        margin-bottom: 9px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        padding: 0px;
+    }
+    .plan__title{
+        font-size: 35px;
+    }
+    .plan__paragraph{
+        max-width: 330px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .container{
+        padding: 0px;
+    }
+    .plan {
+        padding-top: 0px;
+    }
+    .plan__title{
+        font-size: 35px;
+    }
+    .plan__paragraph{
+        max-width: 330px;
+        font-size: 14px;
+        margin: 20px auto 20px;
+    }
+}
+
+@media (min-width: 576px) {
+    .section--info {
+        max-width: none;
+    }
+}
 
 /* section network*/
 .network {
