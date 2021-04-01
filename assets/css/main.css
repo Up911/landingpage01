@@ -999,7 +999,6 @@ p {
 /* media network*/
 
 @media (max-width: 992px) {
-
     .network__title {
         font-size: 35px;
         line-height: 50px;
