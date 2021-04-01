@@ -998,15 +998,8 @@ p {
 
 /* media network*/
 
-@media (min-width: 1400px) {
-
-}
-
-@media (max-width: 1200px) {
-
-}
-
 @media (max-width: 992px) {
+
     .network__title {
         font-size: 35px;
         line-height: 50px;
@@ -1014,7 +1007,7 @@ p {
     .network-map__img {
         margin: 88px auto 0px;
         width: 100%;
-}
+    }
 
 @media (max-width: 768px) {
     .network__paragraph {
@@ -1023,7 +1016,20 @@ p {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 576px) {
+
     .network__title {
         font-size: 32px;
     }
