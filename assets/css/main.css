@@ -1111,6 +1111,19 @@ p {
         left: 10px;
     }
 }
+@media (max-width: 576px) {
+    .sponsors .container {
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .sponsors .container {
+        align-items: center;
+    }
+}
+
+
 @media (min-width: 768px) {
     .sponsors .container {
         flex-direction: row;
