@@ -474,7 +474,7 @@ p {
     }
 
     .hero__img {
-        width: 100%;
+        width: 75%;
     }
 
     .hero__title {
@@ -514,8 +514,9 @@ p {
     justify-content: space-around;
     align-items: center;
     max-width: 100%;
-    margin: 0px auto;
-    padding: 37px 16px;
+    /**margin: 0px auto;**/
+    width: 100%;
+    padding: 30px 0px;
     border: 0px solid transparent;
     border-radius: 10px;
     background-color: white;
@@ -524,8 +525,6 @@ p {
 
 .info-item {
     display: flex;
-    margin-bottom: 14px;
-    margin-right: 17px;
 }
 
 .info-item__value {
@@ -563,6 +562,12 @@ p {
 
 /*** @media info ***/
 @media (max-width: 768px) {
+    .section--info .container {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+
     .section--info {
         flex-wrap: nowrap;
         padding-top: 30px;
@@ -618,7 +623,7 @@ p {
 .section {
 }
 
-.container {
+.section--features .container {
     display: flex;
     justify-content: space-between;
     padding: 0px
@@ -668,7 +673,7 @@ p {
 
 @media (min-width: 1px) {
     .section--features {
-        padding: 50px 25px;
+        padding: 50px 15px;
     }
 
     .features {
@@ -710,6 +715,14 @@ p {
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+    .section--features .features__title {
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .section--features .features__paragraph {
+        margin-bottom: 45px;
+        text-align: center;
     }
 }
 
@@ -759,7 +772,7 @@ p {
     margin: 0px auto;
 }
 
-.plan {
+.section--plan {
     width: 100%;
     padding-top: 80px;
 }
@@ -917,7 +930,7 @@ p {
 }
 
 @media (max-width: 768px) {
-    .container {
+    .section--plan .container {
         padding: 0px;
     }
 
@@ -933,7 +946,7 @@ p {
 
 
 @media (max-width: 576px) {
-    .container {
+    .section--plan .container {
         padding: 0px;
     }
 
@@ -959,19 +972,19 @@ p {
 }
 
 /* section network*/
-.network {
+.section--network {
     width: 100%;
+    text-align: center;
+    padding-top: 150px;
 }
 
 .network__title {
-    margin: 150px auto 20px;
-    text-align: center;
     max-width: 384px;
+    margin: 0 auto;
 }
 
 .network__paragraph {
     margin: 0px auto;
-    text-align: center;
     max-width: 555px;
 }
 
@@ -1034,24 +1047,22 @@ p {
 
 
 /* section sponsors*/
-.sponsors {
+.section--sponsors {
     padding: 60px 0px;
 }
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+}
 
-.sponsors a {
+.sponsor {
     position: relative;
     display: flex;
     transition: .3s linear;
 }
 
-.sponsors a:hover {
+.sponsor:hover {
     transition: .3s linear;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 1280px;
-    padding: 0px
 }
 
 .netflix {
@@ -1415,6 +1426,10 @@ footer {
     max-width: 100%;
     padding-top: 64px;
     padding-bottom: 100px;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .row {
