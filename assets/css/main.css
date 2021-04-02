@@ -989,7 +989,7 @@ p {
 }
 
 @media (max-width: 1200px) {
-    .network-img__list{
+    .network-img__list {
         justify-content: space-between;
 
     }
@@ -1000,6 +1000,7 @@ p {
         font-size: 35px;
         line-height: 50px;
     }
+
     .network-map__img {
         margin: 88px auto 0px;
         width: 100%;
@@ -1018,6 +1019,7 @@ p {
     .network__title {
         font-size: 32px;
     }
+
     .network__paragraph {
         font-size: 13px;
         margin-bottom: 40px;
@@ -1035,11 +1037,13 @@ p {
 .sponsors {
     padding: 60px 0px;
 }
+
 .sponsors a {
     position: relative;
     display: flex;
     transition: .3s linear;
 }
+
 .sponsors a:hover {
     transition: .3s linear;
 }
@@ -1049,42 +1053,52 @@ p {
     max-width: 1280px;
     padding: 0px
 }
+
 .netflix {
     background: url(../svg/netflix.svg) no-repeat;
     width: 200px;
     height: 112px;
 }
+
 .netflix:hover {
     background: url(../svg/netflix-hover.svg) no-repeat;
 }
+
 .reddit {
     background: url(../svg/reddit.svg) no-repeat;
     width: 190px;
     height: 60px;
 }
+
 .reddit:hover {
     background: url(../svg/reddit-hover.svg) no-repeat;
 }
+
 .amazon {
     background: url(../svg/amazon.svg) no-repeat;
     width: 277px;
 }
+
 .amazon:hover {
     background: url(../svg/amazon-hover.svg) no-repeat;
 }
+
 .discord {
     background: url(../svg/discord.svg) no-repeat;
     width: 190px;
     height: 60px;
 }
+
 .discord:hover {
     background: url(../svg/discord-hover.svg) no-repeat;
 }
+
 .spotify {
     background: url(../svg/spotify.svg) no-repeat;
     width: 190px;
     height: 60px;
 }
+
 .spotify:hover {
     background: url(../svg/spotify-hover.svg) no-repeat;
 }
@@ -1097,20 +1111,25 @@ p {
         flex-direction: column;
         gap: 50px;
     }
+
     .reddit {
         left: 10px;
     }
+
     .amazon {
         height: 150px;
         bottom: 40px;
     }
+
     .discord {
         bottom: 35px;
     }
+
     .spotify {
         left: 10px;
     }
 }
+
 @media (max-width: 576px) {
     .sponsors .container {
         align-items: center;
@@ -1131,21 +1150,26 @@ p {
         column-gap: 75px;
         row-gap: 30px;
     }
+
     .netflix {
         bottom: 6px;
     }
+
     .reddit {
         left: 40px;
         bottom: -25px;
     }
+
     .amazon {
         height: 208px;
         bottom: 47px;
     }
+
     .discord {
         bottom: -19px;
         right: 30px;
     }
+
     .spotify {
         left: 0px;
         bottom: -19px;
