@@ -599,7 +599,7 @@ p {
     .info-list {
         flex-direction: column;
         text-align: center;
-        width: 50%;
+        width: 60%;
         height: 50%;
     }
 
@@ -1030,11 +1030,12 @@ p {
 
 @media (max-width: 576px) {
     .network__title {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .network__paragraph {
-        font-size: 13px;
+        font-size: 14px;
+        max-width: 330px;
         margin-bottom: 40px;
     }
 }
