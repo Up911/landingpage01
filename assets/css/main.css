@@ -1120,7 +1120,7 @@ p {
 
 
 /***  media sponsors ***/
-@media (min-width: 1400px)  {
+@media (min-width: 1400px) {
     .section--sponsors {
         padding: 60px 0px;
     }
@@ -1135,17 +1135,21 @@ p {
         display: flex;
         transition: .3s linear;
     }
+
     .reddit {
         top: 30px;
         left: 10px;
     }
+
     .amazon {
         height: 150px;
         bottom: 40px;
     }
+
     .discord {
         top: 28px;
     }
+
     .spotify {
         top: 29px;
         left: 10px;
@@ -1157,13 +1161,16 @@ p {
         top: 30px;
         left: 24px;
     }
+
     .amazon {
         height: 150px;
         bottom: 40px;
     }
+
     .discord {
         top: 28px;
     }
+
     .spotify {
         top: 29px;
         left: 10px;
@@ -1171,13 +1178,14 @@ p {
 }
 
 @media (max-width: 1144px) {
-    .section--sponsors{
+    .section--sponsors {
         flex-direction: column;
         justify-content: space-around;
         column-gap: 75px;
         row-gap: 30px;
     }
-    .sponsor{
+
+    .sponsor {
         flex-direction: column;
         justify-content: space-around;
     }
@@ -1560,24 +1568,44 @@ footer p {
 }
 
 @media (max-width: 992px) {
-
+    footer p {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 768px) {
-    footer .container{
+    footer .container {
         flex-wrap: wrap;
         flex-direction: column;
         text-align: center;
-        gap: 160px;
+        gap: 200px;
+        padding: 0px;
     }
 
+    .row {
+        max-width: 310px;
+        margin: 0px auto 50px;
+    }
+
+    .social {
+        margin: 0 auto 0px;
+    }
 }
 
 @media (max-width: 576px) {
+    .row {
+        max-width: 310px;
+        margin: 0px auto 50px;
+    }
+
+    .social {
+        margin: 0 auto 0px;
+    }
 }
 
-@media (min-width: 576px) {
-    .section--info {
-        max-width: none;
+@media (max-width: 276px) {
+
+    .social {
+        margin: 0 auto 20px;
     }
 }
