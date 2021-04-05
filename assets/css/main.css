@@ -308,6 +308,29 @@ p {
 }
 
 @media (max-width: 992px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 0px;
+        top: 120px;
+        padding: 20px;
+        background-color: aqua;
+    }
+
+    .nav:not(.is-open) {
+        display: none;
+    }
+
+    .nav .nav__item:not(:first-child) {
+        margin-left: 0px;
+    }
+
+    .burger--btn {
+        display: block;
+    }
 }
 
 @media (max-width: 767px) {
@@ -470,7 +493,7 @@ p {
 
 @media (max-width: 576px) {
     .section--hero {
-        padding-top: 40px;
+        padding-top: 180px;
     }
 
     .hero__img {
@@ -494,8 +517,9 @@ p {
 
 @media (min-width: 576px) {
     .section--hero {
-        max-width: none;
+        padding-top: 180px;
     }
+
 }
 
 
