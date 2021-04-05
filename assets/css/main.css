@@ -577,7 +577,7 @@ p {
     .info-list {
         flex-direction: column;
         text-align: center;
-        width: 50%;
+        width: 60%;
         height: 50%;
     }
 
@@ -599,7 +599,7 @@ p {
     .info-list {
         flex-direction: column;
         text-align: center;
-        width: 60%;
+        width: 65%;
         height: 50%;
     }
 
@@ -1564,6 +1564,13 @@ footer p {
 }
 
 @media (max-width: 768px) {
+    footer .container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        gap: 160px;
+    }
+
 }
 
 @media (max-width: 576px) {
