@@ -1154,15 +1154,9 @@ p {
         justify-content: space-between;
     }
 
-    .sponsor {
-        position: relative;
-        display: flex;
-        transition: .3s linear;
-    }
-
     .reddit {
         top: 30px;
-        left: 10px;
+        left: 24px;
     }
 
     .amazon {
@@ -1208,11 +1202,14 @@ p {
         column-gap: 75px;
         row-gap: 30px;
     }
-
-    .sponsor {
-        flex-direction: column;
+    .sponsors {
+        flex-direction: row;
         justify-content: space-around;
+        flex-wrap: wrap;
+        column-gap: 150px;
+        row-gap: 50px;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -1221,7 +1218,32 @@ p {
 
 
 @media (max-width: 576px) {
+    .netflix{
+        top: 107px;
+        left: 0px;
+        bottom: 0px;
+    }
 
+    .reddit {
+        left: 1px;
+        top: 89px;
+    }
+
+    .amazon {
+        right: 14px;
+        bottom: -14px;
+    }
+
+    .discord {
+        top: 0px;
+        right: 10px;
+    }
+
+    .spotify {
+        top: 0px;
+        left: 0px;
+        right: 10px;
+    }
 }
 
 @media (min-width: 576px) {
