@@ -1202,6 +1202,7 @@ p {
         column-gap: 75px;
         row-gap: 30px;
     }
+
     .sponsors {
         flex-direction: row;
         justify-content: space-around;
@@ -1218,7 +1219,7 @@ p {
 
 
 @media (max-width: 576px) {
-    .netflix{
+    .netflix {
         top: 107px;
         left: 0px;
         bottom: 0px;
@@ -1632,7 +1633,8 @@ footer p {
         max-width: 310px;
         margin: 0px auto 50px;
     }
-    .logo a .logo__title--subscribe{
+
+    .logo a .logo__title--subscribe {
         display: flex;
         justify-content: center;
         margin-bottom: 20px;
@@ -1641,7 +1643,8 @@ footer p {
     .social {
         margin: 0 auto 0px;
     }
-    .col--links h4{
+
+    .col--links h4 {
         font-size: 24px;
     }
 }
@@ -1655,7 +1658,8 @@ footer p {
     .social {
         margin: 0 auto 0px;
     }
-    .col--links h4{
+
+    .col--links h4 {
         font-size: 24px;
     }
 }
