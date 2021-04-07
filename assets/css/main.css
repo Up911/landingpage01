@@ -255,7 +255,7 @@ p {
 
 .logo__title--subscribe {
     width: 104px;
-    height: 24px;
+    height: 0px;
     margin-bottom: 15px;
     font-size: 20px;
 }
@@ -1605,12 +1605,22 @@ footer p {
     }
 
     .row {
+        display: block;
+        justify-content: space-between;
         max-width: 310px;
         margin: 0px auto 50px;
+    }
+    .logo a .logo__title--subscribe{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
     }
 
     .social {
         margin: 0 auto 0px;
+    }
+    .col--links h4{
+        font-size: 24px;
     }
 }
 
@@ -1622,6 +1632,9 @@ footer p {
 
     .social {
         margin: 0 auto 0px;
+    }
+    .col--links h4{
+        font-size: 24px;
     }
 }
 
