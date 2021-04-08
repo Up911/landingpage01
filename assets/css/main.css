@@ -415,7 +415,6 @@ p {
     }
 }
 
-
 @media (max-width: 1200px) {
     .hero__title {
         max-width: 282px;
@@ -1257,7 +1256,8 @@ p {
 
 
 /* section comment*/
-.comment {
+
+.section--comment {
     width: 100%;
     position: relative;
     padding-top: 50px;
@@ -1425,6 +1425,35 @@ p {
     width: 20px;
     height: 19px;
     margin: -8px;
+}
+
+
+/***  media comment ***/
+@media (min-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+
+@media (max-width: 576px) {
+
+}
+
+@media (min-width: 576px) {
+    .section--comment {
+        max-width: none;
+    }
 }
 
 
