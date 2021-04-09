@@ -112,6 +112,7 @@ p {
     background-color: #0B132A;
     color: #ffffff;
     transition: 0.8s ease;
+    outline: none;
 }
 
 .btn.btn--sign-up {
