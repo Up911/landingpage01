@@ -1226,6 +1226,7 @@ p {
 
 
 @media (max-width: 576px) {
+
     .netflix {
         top: 107px;
         left: 0px;
@@ -1234,7 +1235,7 @@ p {
 
     .reddit {
         left: 1px;
-        top: 89px;
+        top: 85px;
     }
 
     .amazon {
@@ -1258,6 +1259,7 @@ p {
     .section--sponsors {
         max-width: none;
     }
+
 }
 
 
