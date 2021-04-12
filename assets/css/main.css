@@ -1231,15 +1231,48 @@ p {
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
-        column-gap: 150px;
-        row-gap: 50px;
+        column-gap: 38px;
+        row-gap: 10px;
     }
 
 }
 
 @media (max-width: 768px) {
+    .sponsors {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        column-gap: 400px;
+        row-gap: 21px;
+    }
+    .netflix {
+        top: 107px;
+        left: 0px;
+        bottom: 0px;
+    }
 
+    .reddit {
+        left: 1px;
+        top: 85px;
+    }
+
+    .amazon {
+        right: 14px;
+        bottom: -14px;
+    }
+
+    .discord {
+        top: 0px;
+        right: 10px;
+    }
+
+    .spotify {
+        top: 0px;
+        left: 0px;
+        right: 10px;
+    }
 }
+
 
 
 @media (max-width: 576px) {
