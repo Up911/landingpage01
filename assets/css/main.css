@@ -389,6 +389,7 @@ p {
     position: relative;
     display: flex;
     align-items: center;
+    padding: 0px 15px;
 }
 
 .hero {
@@ -416,9 +417,7 @@ p {
 
 .hero__img {
     display: flex;
-    top: -36px;
-    right: -55px;
-    max-width: 100%;
+    max-width: 45%;
 }
 
 /*** @media hero ***/
@@ -676,7 +675,7 @@ p {
 .section--features .container {
     display: flex;
     justify-content: space-between;
-    padding: 0px
+    padding: 0px 15px;
 }
 
 .section--features {
@@ -846,6 +845,7 @@ p {
     max-width: min-content;
     width: 100%;
     margin: 0px auto;
+    padding: 0px 15px;
 }
 
 .plan-card {
@@ -939,7 +939,7 @@ p {
 
 @media (min-width: 1400px) {
     .plan__container {
-        padding: 75px 0px;
+        padding: 75px 15px;
     }
 
     .plan-card {
@@ -1706,6 +1706,7 @@ footer {
 footer .container {
     display: flex;
     justify-content: space-between;
+    padding: 0px 15px;
 }
 
 .row {
