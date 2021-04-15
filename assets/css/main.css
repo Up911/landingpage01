@@ -175,6 +175,10 @@ p {
     color: green;
 }
 
+.btn.btn--outline.btn-width {
+    border-width: 0px;
+}
+
 .btn.btn--pill {
     border-radius: 50px;
 }
@@ -331,6 +335,10 @@ p {
     }
 
     .btn.btn--sign-up {
+        border-width: 1px;
+    }
+
+    .btn.btn-width {
         border-width: 0px;
     }
 
@@ -1675,6 +1683,7 @@ p {
         padding: 60px 30px;
         text-align: center;
     }
+
     .subscribe-now__btn {
         width: 210px;
     }
@@ -1803,6 +1812,7 @@ footer p {
         gap: 200px;
         padding: 0px;
     }
+
     footer {
         padding-top: 25px;
         padding-bottom: 20px;
@@ -1843,6 +1853,7 @@ footer p {
         padding-top: 20px;
         padding-bottom: 0px;
     }
+
     .row {
         max-width: 310px;
         margin: 0px auto 50px;
