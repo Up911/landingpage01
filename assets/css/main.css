@@ -649,7 +649,7 @@ p {
         flex-direction: column;
         text-align: center;
         width: 60%;
-        height: 50%;
+        height: 350px;
     }
 
     .info-item__image {
