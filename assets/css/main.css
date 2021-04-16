@@ -214,8 +214,7 @@ p {
 }
 
 .section--navigation {
-    padding-top: 45px;
-    padding-bottom: 9px;
+    padding: 45px 0px 9px 0px;
 }
 
 .section.section--navigation > .container {
