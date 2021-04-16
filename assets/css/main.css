@@ -1766,7 +1766,6 @@ footer p {
 
 .col--desc {
     max-width: 342px;
-    height: 62px;
     padding-top: 9px;
 }
 
@@ -1830,7 +1829,8 @@ footer p {
     }
 
     .row {
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
         justify-content: space-between;
         max-width: 310px;
         margin: 0px auto 50px;
