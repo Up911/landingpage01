@@ -721,7 +721,7 @@ p {
 
 @media (min-width: 1px) {
     .section--features {
-        padding: 10px 15px;
+        padding: 50px 0px;
     }
 
     .features {
@@ -995,11 +995,9 @@ p {
     .section--plan .container {
         padding: 0px;
     }
-
-    .section--plan {
-        padding-top: 5px;
+    .section--plan{
+        padding-top: 0px;
     }
-
     .plan__title {
         font-size: 35px;
     }
@@ -1102,7 +1100,7 @@ p {
 
 @media (max-width: 576px) {
     .network__title {
-        font-size: 21px;
+        font-size: 35px;
     }
 
     .network__paragraph {
