@@ -175,7 +175,7 @@ p {
     color: green;
 }
 
-.btn.btn--outline.btn-width {
+.btn.btn--outline.btn--without {
     border-width: 1px;
 }
 
@@ -337,7 +337,7 @@ p {
         border-width: 1px;
     }
 
-    .btn.btn-width {
+    .btn.btn--outline.btn--without {
         border-width: 0px;
     }
 
