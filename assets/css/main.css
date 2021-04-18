@@ -176,7 +176,7 @@ p {
 }
 
 .btn.btn--outline.btn-width {
-    border-width: 0px;
+    border-width: 1px;
 }
 
 .btn.btn--pill {
@@ -1717,7 +1717,7 @@ footer .container {
 }
 
 .row.row--links {
-    width: 568px;
+    width: 500px;
 }
 
 a.logo {
@@ -1736,7 +1736,6 @@ footer p {
 .socials {
     display: flex;
     align-items: center;
-
     margin-bottom: 30px;
 }
 
@@ -1766,7 +1765,7 @@ footer p {
 
 .col--desc {
     max-width: 342px;
-    padding-top: 9px;
+    padding-top: 15px;
 }
 
 .col--links {
@@ -1820,20 +1819,19 @@ footer p {
         padding-bottom: 20px;
     }
 
-    .row.row--links {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        row-gap: 30px;
-        margin-top: 0px;
-    }
-
     .row {
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
         max-width: 310px;
         margin: 0px auto 50px;
+    }
+    .row.row--links {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 30px;
+        margin-top: 0px;
     }
 
     .logo a .logo__title--subscribe {
@@ -1844,6 +1842,9 @@ footer p {
 
     .social {
         margin: 0 auto 0px;
+    }
+    .logo{
+        justify-content: center;
     }
 
     .col--links h4 {
